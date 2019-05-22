@@ -18,3 +18,11 @@ def test(n):
 
 print(a)
 test(10)
+
+def test2(n):
+    list = [1,0]
+    #list.append(n)
+    return list
+
+
+print(test2(1))
