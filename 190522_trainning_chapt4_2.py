@@ -43,3 +43,6 @@ parrot(1000)                                          # 1 positional argument
 parrot(voltage=1000)                                  # 1 keyword argument
 parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
 parrot(voltage=1000000, action=100)             # 2 keyword arguments
+#parrot(action=100, voltage=1000000, 100)             # 2 keyword arguments
+parrot(action=100, voltage=1000000, type=100)             # 2 keyword arguments
+#parrot(voltage=1000000, action=100, 100)             # 2 keyword arguments
