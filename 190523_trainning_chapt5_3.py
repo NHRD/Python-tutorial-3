@@ -13,3 +13,7 @@ print(lisn)
 
 lisnn = list(zip(*lis))
 print(lisnn)
+
+del lisnn[0]
+print(lisnn.pop(0))
+print(lisnn)
