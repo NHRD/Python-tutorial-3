@@ -7,3 +7,6 @@ print(tap)
 
 lis = [[x, x**2] for x in range(6)]
 print(lis)
+
+lisn = [[row[i] for row in lis] for i in range(1)]
+print(lisn)
