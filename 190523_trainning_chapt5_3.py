@@ -10,3 +10,6 @@ print(lis)
 
 lisn = [[row[i] for row in lis] for i in range(1)]
 print(lisn)
+
+lisnn = list(zip(*lis))
+print(lisnn)
