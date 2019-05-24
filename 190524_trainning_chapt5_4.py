@@ -14,3 +14,10 @@ for i in reversed(range(0, 20, 2)):
 
 ab = [i for i in reversed(range(0, 20, 2))]
 print(ab)
+
+a, b, c = 1, "", 3
+sam = a or b or c
+print(sam)
+sam = b or a or c
+print(sam)
+print(sam)
