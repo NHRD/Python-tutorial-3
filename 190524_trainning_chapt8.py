@@ -26,3 +26,16 @@ for cls in [B, C, D]:
         print("C")
     except D:
         print("D")
+
+def failure():
+    x = 1/0
+
+try:
+    failure()
+except ZeroDivisionError as err:
+    print(err)
+try:
+    raise TypeError
+except TypeError as err:
+    print(err)
+    raise
