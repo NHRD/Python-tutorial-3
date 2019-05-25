@@ -19,3 +19,4 @@ birthday = date(1910, 5, 10)
 age = now - birthday
 print(age.days)
 print(int(age.days)//365)
+print(age.days//365)
