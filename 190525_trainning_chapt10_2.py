@@ -10,5 +10,8 @@ p = zlib.decompress(t)
 print(len(p))
 print(p)
 
-zlib.crc32(s)
-
+from timeit import Timer
+a = Timer("t=a; a=b; b=t", "a=1; b=2").timeit()
+print(a)
+b = Timer("a, b = b, a", "a=1; b=2").timeit()
+print(b)
